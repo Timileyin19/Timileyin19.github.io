@@ -1,3 +1,24 @@
+/* Extra large Desktop with Size 1920px */
+@media (min-width: 1367px) and (max-width: 1920px) {
+	.banner-info {
+		padding:30px;
+	}
+	.collapse-menu ul li ul {
+		max-height: unset;
+	}
+	.collapse-menu ul li ul li {
+		margin-bottom: 11.3px;
+	}
+}
+
+/* Large Desktop */
+@media (max-width: 1800px) {
+	.slider-single {
+		height:485px;
+	}
+	
+}
+
 @media (max-width: 1199px) {
 	.mt-md-40 {margin-top:40px;}
 
@@ -8,13 +29,22 @@
 		width:55%;
 	}
 	.search-box.style-2 button {
-		width:20%;
+		width:10%;
+	}
+	.deal_wrap .product_img {
+		max-width: 200px;
+	}
+	.add-to-cart .btn {
+		padding: 10px 20px;
 	}
 
 	
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
+	.container {
+		padding:0;
+	}
 	.search-box button {
 		font-size:20px;
 	}
@@ -71,17 +101,55 @@
 	.slider-caption h2 {
 		font-size:36px;
 	}
-
+	.top-link {
+		padding: 0.5rem 2rem; 
+	}
+	.collapse-menu ul li ul li ul.mega-menu .megamenu-single {
+		padding-right: 10px;
+	}
+	.collapse-menu > ul > li > ul {
+		width: auto;
+	}
+	.collapse-menu ul li ul li ul.mega-menu .mega-menu-title {
+		margin: 0 0 10px 0;
+		padding: 0 50px 6px 0;
+		font-size: 13px;
+		font-weight: 250;
+	}
+	.collapse-menu ul li ul li ul.mega-menu li a {
+		font-size: 11px;
+	}
+	
+	.collapse-menu.style-2 ul li ul li a {
+		font-size: 12px;
+		padding: 3px;
+	}
+	.shop_container.list .product_img {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+	}
+	.single_banner_info {
+		padding: 15px;
+		width: 55%;
+	}
+	.single_bn_title {
+		font-size: 22px;
+	}
 
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
+	.mt-md-3 {
+		margin-top: 1rem !important;
+	}
 	.justify-content-end {
 		-ms-flex-pack: end !important;
 		justify-content: flex-start !important;
 	}
 	.top-link {
-		padding: 0.5rem 1rem !important;
+		padding: 0.5rem 0.5rem !important;
+		border-right: none;
 	}
 
 	.desktop-header, .mainmenu-area {
@@ -93,7 +161,6 @@
 	}
 	.collapse-menu {
 		float: none;
-		background-color: #e23e1d;
 		text-align:right;
 	}
 	.collapse-menu .vm-dropdown {
@@ -106,7 +173,7 @@
 	.collapse-menu > ul > li > a {
 		padding: 7px 10px 5px 15px;
 		color: #e23e1d;
-		color: #ffffff;
+		color: #072208;
 		display:inline-block;
 	}
 	.collapse-menu ul li ul li a {
@@ -143,7 +210,29 @@
 	.megamenu-single {
 		display:block;
 	}
-	
+	.d-none-sm {
+		display:none;
+	}
+	.shop_container.list .product_img {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+	}
+	h6.product_title {
+		font-size: 12px;
+	}
+	.single_banner_info {
+		width: 50%;
+	}
+	.single_banner {
+		margin-bottom: 15px;
+	}
+	.single_bn_title {
+		font-size: 20px;
+	}
+	.single_banner_info {
+		width: 55%;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -164,7 +253,95 @@
 		padding:10px 0;
 		display:block;
 	}
+	.d-none-sm {
+		display:none;
+	}
+	.mini-cart ul li a i {
+		font-size: 13px;
+		margin-right: 10px;
+	}
+	.mini-cart ul li a span {
+		width: 12px;
+		height: 12px;
+		font-size: 8px;
+		line-height: 14px;
+		left: 9px;
+		top: -9px;
+	}
+	.mini-cart > ul > li > a {
+		font-size: 10px;
+	}
+	.mt-md-3 {
+		margin-top: 1rem !important;
+	}
+	.collapse-menu.pull-right {
+		float: none !important;
+	}
+	.collapse-menu {
+		float: none;
+		text-align:right;
+	}
+	.collapse-menu .vm-dropdown {
+		text-align:left;
+	}
+	.collapse-menu > ul > li > ul {
+		max-height: unset;
+		padding: 15px;
+	}
+	.collapse-menu > ul > li > a {
+		padding: 7px 10px 5px 15px;
+		color: #e23e1d;
+		color: #072208;
+		display:inline-block;
+	}
+	.collapse-menu ul li ul li a {
+		font-size:14px;
+	}
+	.collapse-menu > ul > li > a i {
+		display:none;
+	}
+	.collapse-menu > ul > li > ul {
+		border:1px solid #ebebeb;
+	}
+	.collapse-menu ul li ul li ul.mega-menu {
+		transform-origin: top;
+		top: 100%;
+		left: unset;
+		visibility: unset;
+		opacity: unset;
+		filter: unset;
+		box-shadow: unset;
+		padding: 0;
+		position: unset;
+		width: 100%;
+		display: block;
+		transform: scaleY(0);
+		height: 0;
+	}
+	.collapse-menu ul li ul li ul.mega-menu .megamenu-single {
+		padding-right:20px;
+	}
+	.collapse-menu ul li ul li ul.mega-menu.open {
+		transform:scaleY(1);
+		height:auto;
+	}
+	.megamenu-single {
+		display: block !important;
+	}
 	
+.collapse-menu ul li ul li a {
+	margin-bottom: 10px;
+}
+
+.collapse-menu ul li ul li ul.mega-menu .mega-menu-title { 
+	margin: 0 0 8px 0;
+    padding: 0 100px 2px 0;
+	font-size: 12px;
+}
+h6.product_title {
+	font-size: 12px;
+}
+
 }
 
 

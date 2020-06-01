@@ -16,7 +16,7 @@ strong {font-weight:500;}
 /*  Heading CSS
 /*----------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
 }
 h1{
   font-size:60px;
@@ -100,7 +100,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 /*  Button CSS
 /*----------------------------------------*/
 .btn-common {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
     font-size: 13px;
     font-weight: 500;
     color: #e23e1d;
